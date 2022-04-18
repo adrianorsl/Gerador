@@ -2,7 +2,7 @@
 <?php
     $titulo = "Json";
     $nome = (isset($_POST['valores']) ? $_POST['valores'] : "") .".json";
-    $valores = isset($_POST['valores']) ? $_POST['valores'] : 0;
+    $valores = isset($_POST['valores']) ? $_POST['valores'] : "";
     $inicio = isset($_POST['inicio']) ? $_POST['inicio'] : 0;
     $fim = isset($_POST['fim']) ? $_POST['fim'] : 0;
     
